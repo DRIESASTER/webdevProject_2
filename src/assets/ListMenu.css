@@ -1,0 +1,96 @@
+.list-menu {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.list-menu h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-menu li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 10px 15px;
+}
+
+.list-menu button {
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.list-menu .nav-btn {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.list-menu .nav-btn:hover {
+    background-color: #45a049;
+}
+
+.list-menu .delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.list-menu .delete-btn:hover {
+    background-color: #da190b;
+}
+
+.list-menu .add-btn {
+    display: block;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.list-menu .add-btn:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 768px) {
+    .list-menu {
+        padding: 10px;
+    }
+
+    .list-menu h1 {
+        font-size: 18px;
+    }
+
+    .list-menu li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .list-menu button {
+        font-size: 12px;
+        padding: 3px 6px;
+    }
+
+    .list-menu .add-btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
